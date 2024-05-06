@@ -54,6 +54,8 @@ def etiquetado():
         indice+=1
         time.sleep(60)#no cambiar esto, intagram solo deja hacer 60 comentarios por hora
     pg.alert("Terminó")
-etiquetado()
+(etiquetado)
+
+
 
 
