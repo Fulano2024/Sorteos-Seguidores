@@ -7,7 +7,7 @@ x="lauutarov"
 'https://chromewebstore.google.com/detail/igexporter-ig-follower-ex/chmicphoaiifenjibjabgnhpilccfilo'
 
 #aca abajo el archivo que acabas de descargar(IGExporter-usuario-xx-followers). Si no esta dentro de la carpeta no va a funcionar.
-archivoCsv = 'IGExporter-usuario-xx-followers.csv'
+archivoCsv = 'IGExporter-_afvo_31-136-followers.csv'
 
 
 #agrega a todos los usuarios del archivo a una lista.
@@ -55,6 +55,5 @@ def etiquetado():
         time.sleep(60)#no cambiar esto, intagram solo deja hacer 60 comentarios por hora
     pg.alert("Terminó")
 etiquetado()
-
 
 
