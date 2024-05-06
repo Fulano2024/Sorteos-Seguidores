@@ -21,7 +21,7 @@ with open(archivoCsv, 'r', encoding='utf-8') as archivo:
 
 
 #nombre del archivo con los seguidores
-nombreArchivo = "UsuariosInstagram.csv"
+nombreArchivo = "IGExporter-_afvo_31-136-followers.csv"
 
 #crea el archivo con los seguidores 
 with open(nombreArchivo, "w") as archivo:
@@ -54,7 +54,7 @@ def etiquetado():
         indice+=1
         time.sleep(60)#no cambiar esto, intagram solo deja hacer 60 comentarios por hora
     pg.alert("Terminó")
-(etiquetado)
+etiquetado()
 
 
 
